@@ -20,16 +20,15 @@ const Carousel = () => {
       >
         <SwiperSlide>
           <video
-            autoPlay
+            controls
             playsInline
             muted
-            loop
-            preload="auto"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-fill"
           >
-            <source src="../images/carousel_vid_2.mp4" type="video/mp4" />
+            <source src={"../images/carousel_vid.mp4"} alt="carousel 7" />
           </video>
         </SwiperSlide>
+
         <SwiperSlide>
           <img src={"../images/carousel_3.jpg"} alt="Carousel 3" />
         </SwiperSlide>
@@ -48,7 +47,13 @@ const Carousel = () => {
         <SwiperSlide>
           <img src={"../images/carousel_6.jpg"} alt="Carousel 6" />
         </SwiperSlide>
+        <SwiperSlide>
+          <video controls className="w-full h-full object-fill">
+            <source src="../images/carousel_vid_2.mp4" type="video/mp4" />
+          </video>
+        </SwiperSlide>
       </Swiper>
+      <div className="h-[50%] bg-gradient-to-b from-stone-800" />
     </div>
   );
 };
