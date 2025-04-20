@@ -12,8 +12,8 @@ const Carouselcategory = () => {
       <Swiper
       spaceBetween={10}
       slidesPerView={5}
-      modules={[Navigation]}
-      navigation={true}
+    //   modules={[Navigation]}
+    //   navigation={true}
       autoplay={true}
       >
         <SwiperSlide>
@@ -35,25 +35,7 @@ const Carouselcategory = () => {
             <img src={"../images/category_5.jpg"} alt="catagory" />
         </SwiperSlide>
         {/*  */}
-        <SwiperSlide>
-            <img src={"../images/category_0.jpg"} alt="catagory" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={"../images/category_1.jpg"} alt="catagory" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={"../images/category_2.jpg"} alt="catagory" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={"../images/category_3.jpg"} alt="catagory" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={"../images/category_4.jpg"} alt="catagory" />
-        </SwiperSlide>
-        <SwiperSlide>
-            <img src={"../images/category_5.jpg"} alt="catagory" />
-        </SwiperSlide>
-
+        
       </Swiper>
     </div>
   )
