@@ -6,7 +6,7 @@ import Carouselproduct from "./Carouselproduct";
 const Homepage = () => {
   return (
     <div className="bg-[#EAEDED]  ">
-      <div className="min-w-[1000px] max-w-[1500px] bg-gray-200 mx-auto">
+      <div className="min-w-[1000px] max-w-[1500px] bg-gray-200  mx-auto">
         <Carousel />
         <div className="grid grid-cols-3 xl:grid-cols-4 md:grid-cols-2  gap-4 p-1 -mt-80 ">
           <Homepagecard

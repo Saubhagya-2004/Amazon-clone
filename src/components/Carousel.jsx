@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 
 const Carousel = () => {
   return (
-    <div className="bg-white h-[600px] relative">
+    <div className="bg-white h-[600px] relative ">
       <Swiper
         loop={true}
         spaceBetween={0}
@@ -21,6 +21,7 @@ const Carousel = () => {
         <SwiperSlide>
           <video
             controls
+           
             playsInline
             muted
             className="w-full h-full object-fill"

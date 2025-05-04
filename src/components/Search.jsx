@@ -5,11 +5,11 @@ const Search = () => {
   return (
     <div className='w-[100%] '>
         <div className='flex items-center bg-yellow-600 h-10 rounded-2xl'>
-        <select  className='bg-gray-300 p-3 border text-xs xl:text-sm text-black rounded-l-2xl '>
+        <select  className='bg-gray-300 p-3 border text-xs xl:text-sm text-black rounded-l '>
             <option >All</option>
             <option >Deals</option>
             <option >Amazon</option>
-            <option selected >Fashion lin</option>
+            <option  >Fashion lin</option>
             <option >Computers</option>
         </select>
           
